@@ -1,0 +1,46 @@
+[Besoins]
+
+- CODE
+	> Unity
+	> GIT
+	> Visual Studio ?
+- SUIVI DE PROJET
+	> Gantt
+	> Github
+	> Tâches
+- 3D
+	> Unity
+	> Formation
+	> 3D Isométrique
+	> Modèles 3D
+		>> Joueur
+		>> Obstacle
+	> Librairies ?
+	> Générations de map "infinie"
+- JEU
+	> Joueur
+	> Interface utilisateur
+		>> Boutons
+		>> Menus
+		>> Options
+		>> Paramètres
+	> Personnages
+		>> Joueur
+		>> Obstacles
+		>> 
+	> Ambiance
+		>> Bruits
+		>> Musiques
+		>> Décor
+- IMAGINAIRE
+	> un poulet ?
+	> des rails ?
+	> des routes ?
+	> fleuve ?
+	> un petit glaçon ?
+_
+
+[Tâches]
+
+- 
+_
