@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Crossy Road" company="Les Boss" webLink="https://github.com/CrossyRoad-cnam" view-date="2023-10-30" view-index="0" gantt-divider-location="471" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Crossy Road" company="Les Boss" webLink="https://github.com/CrossyRoad-cnam" view-date="2023-12-04" view-index="0" gantt-divider-location="453" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
     <description/>
     <view zooming-state="default:6" id="gantt-chart">
-        <field id="tpd3" name="Nom" width="268" order="0"/>
-        <field id="tpd4" name="Date de début" width="101" order="1"/>
-        <field id="tpd5" name="Date de fin" width="101" order="2"/>
+        <field id="tpd3" name="Nom" width="257" order="0"/>
+        <field id="tpd4" name="Date de début" width="97" order="1"/>
+        <field id="tpd5" name="Date de fin" width="98" order="2"/>
         <option id="taskLabelUp" value="length"/>
         <option id="taskLabelDown" value="coordinator"/>
         <option id="taskLabelRight" value=""/>
@@ -13,8 +13,8 @@
         </option>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="199" order="0"/>
-        <field id="1" name="Rôle par défaut" width="82" order="1"/>
+        <field id="0" name="Nom" width="206" order="0"/>
+        <field id="1" name="Rôle par défaut" width="90" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -75,18 +75,18 @@
             </task>
             <task id="23" name="Tests intégration" color="#8cb6ce" meeting="false" start="2024-02-28" duration="5" complete="0" thirdDate="2024-02-28" thirdDate-constraint="0" expand="true"/>
         </task>
-        <task id="4" name="Refactorisation" color="#00cc66" meeting="false" start="2024-03-06" duration="15" complete="0" thirdDate="2023-12-04" thirdDate-constraint="0" expand="true">
+        <task id="4" name="Refactorisation" color="#8cb6ce" meeting="false" start="2024-03-06" duration="15" complete="0" thirdDate="2023-12-04" thirdDate-constraint="0" expand="true">
             <depend id="5" type="2" difference="0" hardness="Rubber"/>
         </task>
         <task id="5" name="Integration Unity 3D" color="#8cb6ce" meeting="false" project="true" start="2024-03-27" duration="15" complete="0" thirdDate="2023-12-04" thirdDate-constraint="0" expand="true">
             <depend id="6" type="2" difference="0" hardness="Rubber"/>
-            <task id="27" name="Creation pièce aléatoire" color="#8cb6ce" meeting="false" start="2024-03-27" duration="10" complete="0" thirdDate="2023-12-04" thirdDate-constraint="0" expand="true">
+            <task id="27" name="Creation pièce aléatoire" color="#8cb6ce" meeting="false" start="2024-03-27" duration="15" complete="0" thirdDate="2023-12-04" thirdDate-constraint="0" expand="true">
                 <depend id="6" type="2" difference="0" hardness="Rubber"/>
             </task>
-            <task id="26" name="Système de déplacement" color="#8cb6ce" meeting="false" start="2024-03-27" duration="10" complete="0" thirdDate="2024-03-27" thirdDate-constraint="0" expand="true">
+            <task id="26" name="Système de déplacement" color="#8cb6ce" meeting="false" start="2024-03-27" duration="15" complete="0" thirdDate="2024-03-27" thirdDate-constraint="0" expand="true">
                 <depend id="6" type="2" difference="0" hardness="Rubber"/>
             </task>
-            <task id="25" name="Creation personnage" color="#8cb6ce" meeting="false" start="2024-03-27" duration="10" complete="0" thirdDate="2024-03-27" thirdDate-constraint="0" expand="true">
+            <task id="25" name="Creation personnage" color="#8cb6ce" meeting="false" start="2024-03-27" duration="15" complete="0" thirdDate="2024-03-27" thirdDate-constraint="0" expand="true">
                 <depend id="6" type="2" difference="0" hardness="Rubber"/>
             </task>
             <task id="24" name="Creation map" color="#8cb6ce" meeting="false" start="2024-03-27" duration="15" complete="0" thirdDate="2024-03-27" thirdDate-constraint="0" expand="true"/>
