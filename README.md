@@ -1,6 +1,8 @@
 # 🐧 PROJET CROSSY ROAD 🐧
-Ce projet consiste à produire un jeu vidéo qui reprend le jeu Crossy Road avec quelques personnalisations.
-Aussi, comme objectif, nous voudrions développer un robot qui est capable de jouer au jeu malgré la difficulté imposé.
+Ce projet intitulé "**CROSSY ROAD**" consiste à produire un jeu vidéo qui reprend le jeu [Crossy Road](https://www.crossyroad.com/) avec quelques personnalisations.
+Aussi, comme objectif, ce projet nous incite à développer un robot qui est capable de jouer au jeu malgré la difficulté imposé.
+
+![Starting-Game](/assets/Crossy-Road-Starting.png)
 
 Par ailleurs, ce projet nous permet également de mettre en pratique et d'approfondir nos compétences en gestiin de projet en tenant en considération :
 - La [répartition des tâches](https://github.com/CrossyRoad-cnam/CrossyRoad-Project/milestones?state=closed)
@@ -15,3 +17,4 @@ Avant d'entamer le développement du jeu et de mieux appréhender la conception 
 - Diagramme de cas d'utilisation : pour détailler les différentes actions que l'utilisateur puisse effectuer sur l'UI du jeu allant du Menu vers l'in-game du jeu
 - Diagramme d'états transitions
 
+## Analyse UML
