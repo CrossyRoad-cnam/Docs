@@ -24,16 +24,16 @@ Enfin, une grande partie du projet fut consacrée sur la prise en main et l'appr
 Dans le cadre de l'analyse UML, comme cité précédemment, ci-dessous les différents diagrammes que nous avons réalisés dans le cadre de ce projet.
 
 ### Diagramme de classe
-![Class-Diagram](/diagrammes/UML/img/Diagramme_classe.png)
+![Class-Diagram](/Diagrammes/UML/img/Diagramme_classe.png)
 
 ### Diagramme activite 1: Player
-![Activity-1-Player-Diagram](/diagrammes/UML/img/Diagramme_activite_Player.png)
+![Activity-1-Player-Diagram](/Diagrammes/UML/img/Diagramme_activite_Player.png)
 
 ### Diagramme activite 2: Robot
-![Activity-2-Robot-Diagram](/diagrammes/UML/img/Diagramme_activite_Robot.png)
+![Activity-2-Robot-Diagram](/Diagrammes/UML/img/Diagramme_activite_Robot.png)
 
 ### Diagramme de cas d'utilisation
-![Use-Case-Diagram](/diagrammes/UML/img/Diagramme_cas_utilisation.png)
+![Use-Case-Diagram](/Diagrammes/UML/img/Diagramme_cas_utilisation.png)
 
 ### Diagramme d'état transition
 
