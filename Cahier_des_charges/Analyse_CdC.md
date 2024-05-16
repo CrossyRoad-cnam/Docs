@@ -10,7 +10,7 @@
 - Fonctionnalités minimum du jeu : 1 terrai fixe avec objet mouvant non franchissable
 
 ## Fonctionnalités du jeu
-- Map :
+- Map
     - Herbe : objets statiques (buissons ou arbres)
     - Route : objets en mouvement (voirture et camions) avec un espacement raisonnable entre chaque obstacle,
     - Rail : objets en mouvement (train)
@@ -24,4 +24,21 @@
     - A chaque ligne franchie, score++
     - Si score = 50, son quack
 
-- Interface (Faire un diagramme cas d'utilisation)
+## Interface utilisateur
+- Menu principal avec comme options :
+  - Jouer pour lancer le jeu
+  - Highscore pour pouvoir consulter les leaderboards du jeu par difficulté
+  - Options pour le choix de difficulté et modification sonores
+  - Skins pour choisir avec quel mascotte jouer et possibilité d'en débloquer d'autres skins avec la monnaie du jeu.
+  - Quitter pour quitter le jeu
+- Menu pause :
+  - Retry pour recommencer le jeu
+  - Quitter pour revenir au menu principal
+- Dashboard du jeu
+  - Affichage du score courant du joueur
+  - Affichage du highScore à battre dans cette difficulté
+  - Affichage du temps de jeu écoulé
+  - Affichage des pièces détenues par le joueur
+- Game over:
+  - Retry pour recommencer le jeu
+  - Quitter pour revenir au menu principal
