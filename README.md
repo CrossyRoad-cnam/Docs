@@ -264,6 +264,12 @@ Quelques démos:
 - [Mouvement sur route](assets/robot/Robot-road.mp4)
 - [Mouvement sur rails](assets/robot/Robot-train.mp4)
 
+<div style="display: flex; justify-content: space-around;" gap="50">
+  <img src="assets/robot/Train.gif" alt="train" height="400"/>
+  <img src="assets/robot/Voiture.gif" alt="voiture" height="400"/>
+</div>
+
+
 ## :computer: Technologies utilisées
 
 <a href="https://docs.unity.com/" target="_blank" rel="noreferrer">
