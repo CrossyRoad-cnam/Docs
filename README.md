@@ -1,11 +1,13 @@
 # 🐧 PROJET CROSSY ROAD 🐧
+
+## Introduction
 Ce projet intitulé "**CROSSY ROAD**" consiste à produire un jeu vidéo qui reprend le jeu [Crossy Road](https://www.crossyroad.com/) avec quelques personnalisations.
 Aussi, comme objectif, ce projet nous incite à développer un robot qui est capable de jouer au jeu malgré la difficulté imposé.
 
 ![Starting-Game](/assets/Crossy-Road-Starting.png)
 
-Par ailleurs, ce projet nous permet également de mettre en pratique et d'approfondir nos compétences en gestiin de projet en tenant en considération :
-- La [répartition des tâches](https://github.com/CrossyRoad-cnam/CrossyRoad-Project/milestones?state=closed) sur `GitHub`
+Par ailleurs, ce projet nous permet également de mettre en pratique et d'approfondir nos compétences en gestion de projet en tenant en considération :
+- La [répartition des tâches]() sur `GitHub`
 - L'organisation du [code source](https://github.com/CrossyRoad-cnam/CrossyRoad-Project) avec `git`
 - Travail en mode `Agile` avec la gestion des issues par sprint grâce à des [milestones définis](https://github.com/CrossyRoad-cnam/CrossyRoad-Project/milestones?state=closed).
 - Maintien du [tableau Kanban](https://github.com/orgs/CrossyRoad-cnam/projects/2) sur `GitHub`
@@ -83,6 +85,7 @@ Enfin, en terme technique, les plus grosses difficultés que nous avons rencontr
 - Algorithme de déplacement du robot sur l'environnment
 - Gestion de l'animation du joueur que ce soit pour l'effet de saut et à la mort du personnage
 - Gestion du cycle de vie de joueur qui ne devait pas être directement détruit suite à sa mort car pouvant entraver l'animation.
+
 
 
 ## Documentation utilisateur
