@@ -51,7 +51,6 @@ Avant d'entamer le développement du jeu et de mieux appréhender la conception 
 - Diagramme d'activité 2: spécifique au robot implémentant sa logique de déplacement
 - Diagramme de cas d'utilisation: pour détailler les différentes actions que l'utilisateur puisse effectuer sur l'UI du jeu allant du Menu vers l'in-game du jeu
 - Diagramme d'états transition
-- Diagramme de séquence
 
 Enfin, une grande partie du projet fut consacrée sur la prise en main et l'apprentissage du moteur de jeu utilisé pour développer le jeu qui est : [Unity3D](https://unity.com/fr), et des outils de modelisation 3D comme [Blender](https://www.blender.org/) et de Voxel ([MagicaVoxel](https://ephtracy.github.io/)) pour pouvoir répliquer de manière quasi identique le jeu niveau visuel.
 
