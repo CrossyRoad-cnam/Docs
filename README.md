@@ -1,4 +1,4 @@
-# 🐧 PROJET CROSSY ROAD 🐧
+# PROJET CROSSY ROAD :car:
 
 ## Introduction
 Ce projet intitulé "**CROSSY ROAD**" consiste à produire un jeu vidéo qui reprend le jeu [Crossy Road](https://www.crossyroad.com/) avec quelques personnalisations.
@@ -7,7 +7,7 @@ Aussi, comme objectif, ce projet nous incite à développer un robot qui est cap
 ![Starting-Game](/assets/Crossy-Road-Starting.png)
 
 Par ailleurs, ce projet nous permet également de mettre en pratique et d'approfondir nos compétences en gestion de projet en tenant en considération :
-- La [répartition des tâches]() sur `GitHub`
+- La [répartition des tâches](https://github.com/orgs/CrossyRoad-cnam/projects/2/views/3) sur `GitHub`
 - L'organisation du [code source](https://github.com/CrossyRoad-cnam/CrossyRoad-Project) avec `git`
 - Travail en mode `Agile` avec la gestion des issues par sprint grâce à des [milestones définis](https://github.com/CrossyRoad-cnam/CrossyRoad-Project/milestones?state=closed).
 - Maintien du [tableau Kanban](https://github.com/orgs/CrossyRoad-cnam/projects/2) sur `GitHub`
@@ -28,8 +28,9 @@ Dans le cadre de l'analyse UML, comme cité précédemment, ci-dessous les diff�
 ### Diagramme de classe
 ![Class-Diagram](/diagramme/UML/img/Diagramme_classe.png)
 
-#### Argumentation du choix d'architecture
-- **Classe Player en Singleton** : étant la classe central du jeu, et que dans un jeu comme Crossy Road, il n'existe qu'une seule instance de Player. Cette classe n'a pas vocation à être instancié dans d'autres classes. Ainsi, pour ce faire, cette classe a été conçue en tant que classe static dans le code à la manière d'Unity.
+**Pourquoi classe Player en Singleton ?**
+
+Etant la classe central du jeu, et que dans un jeu comme Crossy Road, il n'existe qu'une seule instance de Player. Cette classe n'a pas vocation à être instancié dans d'autres classes. Ainsi, pour ce faire, cette classe a été conçue en tant que `classe static` dans le code à la manière d'Unity.
 
 ### Diagramme activite 1: Player
 ![Activity-1-Player-Diagram](/diagramme/UML/img/Diagramme_activite_Player.png)
@@ -69,7 +70,10 @@ Pour l'organisation du projet sous le Git, nous avons suivi une méthodologie st
 - En complément, plusieurs autres branches, soit nominatives, soit basées sur des fonctionnalités spécifiques, ont été créées pour permettre des tests approfondis et des modifications susceptibles de casser le code temporairement.
 
 ### Réalisation du projet
-
+Pour la réalisation du projet, dans son ensemble chacun ont pris leur responsabilité pour développer le jeu et mener à bien le projet:
+- @Dinholu, alias Alizée, dans son rôle de chef de projet, s'occupait majoritairement du pilotage du projet en programmant en avance les différentes réunions hebdomadaires pour la revue des issues et du code. Des sprints ont donc été définies en des milestones, et que chacun devait réussir à clore leur issue pour pouvoir atteindre notre objectif. En terme de développement, elle s'occupait grandement de la gestion du son du jeu, la revue et refactorisation du code pour maintenir la lisibilité du code, la mise en place du menu principal et de ses différentes options et le développement/optimisation de la détection du robot.
+- @EpitronX, alias Jérémie, dans son rôle de développeur, était celui qui se chargeait du développement de l'algorithme de spawn des objets sur le terrain, l'algorithme de détection de train et l'émet de signal d'arrivée du train, la gestion de la caméra du jeu et mise en place des bordures de jeu.
+- @WRKT, alias Winness, dans son rôle de développeur, a pris en charge la modélisation graphique du jeu et des différents modèles avec Blender. Son objectif principal étant de vouloir répliquer à l'identique le jeu originel de son mieux. Aussi, il participait à optimisation de l'algorithme de génération de terrain, création du personnage principal et de son ennemi (aigle), optimisation des différentes collisions du jeu, et développement du robot.
 
 ## Difficultés rencontrés
 Tout au long du projet, plusieurs difficultés ont été rencontrées, notamment dû au manque de compétences sur Unity de l'équipe, et encore le temps de formation sur la technologie.
@@ -78,21 +82,20 @@ Aussi, dû à ce manque de connaissance, plusieurs bonnes pratiques de Unity n'o
 Par ailleurs, des difficultés ont été rencontrés également en terme d'organisation, notamment sur la communication au sein de l'équipe où les disponibilités de chacun n'étaient pas forcément évidente. Aussi, comme chaque membre ont leur propre compétences et capacité sur un sujet donnée, quelques issues ont donc été redistribués et modifiés en assignation pour pouvoir mener à bien le projet.
 
 Enfin, en terme technique, les plus grosses difficultés que nous avons rencontrés sont :
-- Non utilisation de l'axe Z comme étant l'axe pour avancer
-- Mauvaise exploitation des Start et Awake où normalement, Awake serait plus optimale pour l'instanciation des variables.
-- La gestion de la collision avec les Raycasts pour les obstacles
+- Non utilisation de l'`axe Z` comme étant l'axe pour avancer
+- Mauvaise exploitation des fonctions `Start()` et `Awake()` où normalement, `Awake` serait plus optimale pour l'instanciation des variables.
+- La gestion de la collision avec les `Raycasts` pour les obstacles
 - Le développement du robot et la détection précoce des objets mouvants pour optimiser ses décisions
 - Algorithme de déplacement du robot sur l'environnment
 - Gestion de l'animation du joueur que ce soit pour l'effet de saut et à la mort du personnage
 - Gestion du cycle de vie de joueur qui ne devait pas être directement détruit suite à sa mort car pouvant entraver l'animation.
 
 
-
 ## Documentation utilisateur
 
 ## Technologies utilisées
 
-## CONTRIBUTORS
-@EpitronX alias Jeremie Moser
-@Dinholu alias Alizée Hett
-@WRKT alias Winness Rakotozafy
+## CONTRIBUTOR
+- @EpitronX alias Jeremie Moser
+- @Dinholu alias Alizée Hett
+- @WRKT alias Winness Rakotozafy
