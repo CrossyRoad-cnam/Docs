@@ -2,7 +2,6 @@
 
 <h1>PROJET CROSSY ROAD :car:</h1>
 
-![Starting-Game](/assets/Crossy-Road-Starting.png)
 </div>
 
 ## :page_with_curl: Sommaire
@@ -27,6 +26,8 @@
 ## :star: Introduction
 Ce projet intitulé "**CROSSY ROAD**" consiste à produire un jeu vidéo qui reprend le jeu [Crossy Road](https://www.crossyroad.com/) avec quelques personnalisations.
 Aussi, comme objectif, ce projet nous incite à développer un robot qui est capable de jouer au jeu malgré la difficulté imposé.
+
+![Starting-Game](/assets/Crossy-Road-Starting.png)
 
 Par ailleurs, ce projet nous permet également de mettre en pratique et d'approfondir nos compétences en gestion de projet en tenant en considération :
 - La [répartition des tâches](https://github.com/orgs/CrossyRoad-cnam/projects/2/views/3) sur `GitHub`
