@@ -202,11 +202,37 @@ Et comme pour le menu Pause précédemment :
 - Cliquez sur `QUIT` pour revenir au Menu principal du jeu
 
 ### Highscore
+Maintenant vient le leaderboard! N'hésitez pas à battre votre score et devenir le top 1 dans le leaderboard comme dans les vieux jeux d'arcade :video_game:.
+
+<div style="text-align:center;">
+
+![HighScore](assets/Leaderboard.png)
+</div>
+
+Vous pouvez consulter les différents leaderboards selon la difficulté que vous avez choisi. Ainsi, l'équipe de développement du jeu vous invite à réussir au moins 100 points dans la difficulté `Difficile`.
 
 ### Skins
 
+<div style="text-align:center;">
+
+![Skin-menu](assets/Skins.png)
+</div>
+
+Dans le menu skin, vous pourrez modifier la mascotte de votre personnage. Attention, rien n'est gratuit dans la vie à part les personnages suivants :
+- Chicken, personnage principal, qui décide de traverser une route aussi dangereuse...
+- Duck, ami du canard et grand rival, qui veut aller toujours plus loin que le poulet, mais à quel prix...
+- Penguin, parce qu'on aime les pinguoins, vive les pinguoins! Vive Tux! Vive Linux!!
+
+Si vous êtes assez bon sur le jeu, vous aurez encore plus de choix sur le jeu, il y existe actuellement **21 skins** sur le jeu! Ainsi sur ce menu :
+- Cliquez sur `BUY` pour acheter les skins
+- Cliquez sur `SELECT` pour sélectionner le skin vu sur l'écran.
+- Cliquez sur `PLAY` pour lancer directement le jeu
+- Cliquez sur `BACK` pour revenir au menu précédent pour affiner d'autres réglages.
+
+
 ### Options
 
+## :dependabot: Le Robot
 ## :computer: Technologies utilisées
 
 ## :trollface: Contributors
