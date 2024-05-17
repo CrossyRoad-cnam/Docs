@@ -1,10 +1,32 @@
-# PROJET CROSSY ROAD :car:
+<div style="text-align:center;">
 
-## Introduction
-Ce projet intitulé "**CROSSY ROAD**" consiste à produire un jeu vidéo qui reprend le jeu [Crossy Road](https://www.crossyroad.com/) avec quelques personnalisations.
-Aussi, comme objectif, ce projet nous incite à développer un robot qui est capable de jouer au jeu malgré la difficulté imposé.
+<h1>PROJET CROSSY ROAD :car:</h1>
 
 ![Starting-Game](/assets/Crossy-Road-Starting.png)
+</div>
+
+## :page_with_curl: Sommaire
+- [:star: Introduction](#star-introduction)
+- [:chart_with_upwards_trend: Analyse UML](#chart_with_upwards_trend-analyse-uml)
+    - [Diagramme de classe](#diagramme-de-classe)
+    - [Diagramme activite 1: Player](#diagramme-activite-1-player)
+    - [Diagramme activite 2: Robot](#diagramme-activite-2-robot)
+    - [Diagramme de cas d'utilisation](#diagramme-de-cas-dutilisation)
+    - [Diagramme d'état transition](#diagramme-détat-transition)
+- [:pencil: Gestion du projet](#pencil-gestion-du-projet)
+    - [Planification du projet](#planification-du-projet)
+        - [Diagramme de Gantt initial](#diagramme-de-gantt-initial)
+        - [Diagramme de Gantt final](#diagramme-de-gantt-final)
+    - [Organisation du projet sous Git](#organisation-du-projet-sous-git)
+    - [Réalisation du projet](#réalisation-du-projet)
+- [:thumbsdown: Difficultés rencontrés](#thumbsdown-difficultés-rencontrés)
+- [:notebook: Documentation utilisateur](#notebook-documentation-utilisateur)
+- [:computer: Technologies utilisées](#computer-technologies-utilisées)
+- [:trollface: Contributors](#trollface-contributors)
+
+## :star: Introduction
+Ce projet intitulé "**CROSSY ROAD**" consiste à produire un jeu vidéo qui reprend le jeu [Crossy Road](https://www.crossyroad.com/) avec quelques personnalisations.
+Aussi, comme objectif, ce projet nous incite à développer un robot qui est capable de jouer au jeu malgré la difficulté imposé.
 
 Par ailleurs, ce projet nous permet également de mettre en pratique et d'approfondir nos compétences en gestion de projet en tenant en considération :
 - La [répartition des tâches](https://github.com/orgs/CrossyRoad-cnam/projects/2/views/3) sur `GitHub`
@@ -22,29 +44,49 @@ Avant d'entamer le développement du jeu et de mieux appréhender la conception 
 
 Enfin, une grande partie du projet fut consacrée sur la prise en main et l'apprentissage du moteur de jeu utilisé pour développer le jeu qui est : [Unity3D](https://unity.com/fr), et des outils de modelisation 3D comme [Blender](https://www.blender.org/) et de Voxel ([MagicaVoxel](https://ephtracy.github.io/)) pour pouvoir répliquer de manière quasi identique le jeu niveau visuel.
 
-## Analyse UML
+## :chart_with_upwards_trend: Analyse UML
 Dans le cadre de l'analyse UML, comme cité précédemment, ci-dessous les différents diagrammes que nous avons réalisé dans le cadre de ce projet dont : diagramme de classe, diagramme d'activité, diagramme de cas d'utilisation, diagramme d'états transition.
+
+
+<div style="text-align:center;">
 
 ### Diagramme de classe
 ![Class-Diagram](/diagramme/UML/img/Diagramme_classe.png)
+</div>
 
 **Pourquoi classe Player en Singleton ?**
 
 Etant la classe central du jeu, et que dans un jeu comme Crossy Road, il n'existe qu'une seule instance de Player. Cette classe n'a pas vocation à être instancié dans d'autres classes. Ainsi, pour ce faire, cette classe a été conçue en tant que `classe static` dans le code à la manière d'Unity.
 
+
+<div style="text-align:center;">
+
 ### Diagramme activite 1: Player
 ![Activity-1-Player-Diagram](/diagramme/UML/img/Diagramme_activite_Player.png)
+</div>
+
+
+<div style="text-align:center;">
 
 ### Diagramme activite 2: Robot
 ![Activity-2-Robot-Diagram](/diagramme/UML/img/Diagramme_activite_Robot.png)
+</div>
+
+
+<div style="text-align:center;">
 
 ### Diagramme de cas d'utilisation
 ![Use-Case-Diagram](/diagramme/UML/img/Diagramme_cas_utilisation.png)
+</div>
+
+
+<div style="text-align:center;">
 
 ### Diagramme d'état transition
 ![State-Diagram](/diagramme/UML/img/Diagramme_etat_transition.png)
+</div>
 
-## Gestion du projet
+## :pencil: Gestion du projet
 Pour la gestion du projet, plusieurs étapes étaient réalisées, allant de la planification du projet avec les comptes rendus disponibles dans les CR disponible dans le [dossier](https://github.com/CrossyRoad-cnam/Docs/tree/main/compte-rendu-reunion) associé, vers la réalisation du projet pilotée avec la gestion des issues et méthologie Agile grâce au milestones sur GitHub.
 
 ### Planification du projet
@@ -58,7 +100,10 @@ Aussi, certaines tâches et réalisations fut ajoutées dans le Diagramme de Gan
 Ainsi, pour visualiser la planification et la réalité ed la réalisation du projet, ci-dessous le diagramme de Gantt initial et le Diagramme de Gantt final.
 
 #### Diagramme de Gantt initial
+<div style="text-align:center;">
+
 ![Digramme-Gantt-initial](diagramme/Gantt/img/Diagramme-Gantt-initial.png)
+</div>
 
 #### Diagramme de Gantt final
 
@@ -75,7 +120,7 @@ Pour la réalisation du projet, dans son ensemble chacun ont pris leur responsab
 - @EpitronX, alias Jérémie, dans son rôle de développeur, était celui qui se chargeait du développement de l'algorithme de spawn des objets sur le terrain, l'algorithme de détection de train et l'émet de signal d'arrivée du train, la gestion de la caméra du jeu et mise en place des bordures de jeu.
 - @WRKT, alias Winness, dans son rôle de développeur, a pris en charge la modélisation graphique du jeu et des différents modèles avec Blender. Son objectif principal étant de vouloir répliquer à l'identique le jeu originel de son mieux. Aussi, il participait à optimisation de l'algorithme de génération de terrain, création du personnage principal et de son ennemi (aigle), optimisation des différentes collisions du jeu, et développement du robot.
 
-## Difficultés rencontrés
+## :thumbsdown: Difficultés rencontrés
 Tout au long du projet, plusieurs difficultés ont été rencontrées, notamment dû au manque de compétences sur Unity de l'équipe, et encore le temps de formation sur la technologie.
 Aussi, dû à ce manque de connaissance, plusieurs bonnes pratiques de Unity n'ont pas été appliquées au projet.
 
@@ -91,11 +136,11 @@ Enfin, en terme technique, les plus grosses difficultés que nous avons rencontr
 - Gestion du cycle de vie de joueur qui ne devait pas être directement détruit suite à sa mort car pouvant entraver l'animation.
 
 
-## Documentation utilisateur
+## :notebook: Documentation utilisateur
 
-## Technologies utilisées
+## :computer: Technologies utilisées
 
-## CONTRIBUTOR
-- @EpitronX alias Jeremie Moser
-- @Dinholu alias Alizée Hett
-- @WRKT alias Winness Rakotozafy
+## :trollface: Contributors
+- @Dinholu alias **Alizée Hett**
+- @EpitronX alias **Jeremie Moser**
+- @WRKT alias **Winness Rakotozafy**
