@@ -71,7 +71,19 @@ Pour l'organisation du projet sous le Git, nous avons suivi une méthodologie st
 
 ## Difficultés rencontrés
 Tout au long du projet, plusieurs difficultés ont été rencontrées, notamment dû au manque de compétences sur Unity de l'équipe, et encore le temps de formation sur la technologie.
-Aussi, dû à ce manque de connaissance, plusieurs bonnes pratiques de Unity n'ont pas été appliquées au projet, notamment le fait d'utiliser
+Aussi, dû à ce manque de connaissance, plusieurs bonnes pratiques de Unity n'ont pas été appliquées au projet.
+
+Par ailleurs, des difficultés ont été rencontrés également en terme d'organisation, notamment sur la communication au sein de l'équipe où les disponibilités de chacun n'étaient pas forcément évidente. Aussi, comme chaque membre ont leur propre compétences et capacité sur un sujet donnée, quelques issues ont donc été redistribués et modifiés en assignation pour pouvoir mener à bien le projet.
+
+Enfin, en terme technique, les plus grosses difficultés que nous avons rencontrés sont :
+- Non utilisation de l'axe Z comme étant l'axe pour avancer
+- Mauvaise exploitation des Start et Awake où normalement, Awake serait plus optimale pour l'instanciation des variables.
+- La gestion de la collision avec les Raycasts pour les obstacles
+- Le développement du robot et la détection précoce des objets mouvants pour optimiser ses décisions
+- Algorithme de déplacement du robot sur l'environnment
+- Gestion de l'animation du joueur que ce soit pour l'effet de saut et à la mort du personnage
+- Gestion du cycle de vie de joueur qui ne devait pas être directement détruit suite à sa mort car pouvant entraver l'animation.
+
 
 ## Documentation utilisateur
 
