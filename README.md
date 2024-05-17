@@ -20,6 +20,16 @@
     - [Réalisation du projet](#réalisation-du-projet)
 - [:thumbsdown: Difficultés rencontrés](#thumbsdown-difficultés-rencontrés)
 - [:notebook: Documentation utilisateur](#notebook-documentation-utilisateur)
+    - [Menu principal](#menu-principal)
+    - [In-game](#in-game)
+        - [Déplacement du joueur](#déplacement-du-joueur)
+        - [Evitez les ennemis](#evitez-les-ennemis)
+        - [Pause du jeu](#pause-du-jeu)
+        - [Game Over](#game-over)
+    - [Highscore](#highscore)
+    - [Skins](#skins)
+    - [Options](#options)
+- [🤖 Le Robot](#🤖-le-robot)
 - [:computer: Technologies utilisées](#computer-technologies-utilisées)
 - [:trollface: Contributors](#trollface-contributors)
 
@@ -250,8 +260,37 @@ En effet, dans le développement du jeu, depuis le début, nous avons choisi de 
 
 En utilisant donc cette même logique de détection, nous avons développé le robot autour des `raycasts` pour la détection de son envrionnement que ce soit pour les Obstacles, les véhicules, les trains, et l'eau.
 
+Quelques démos:
+- [Mouvement sur eau](assets/robot/Robot-eau.mp4)
+- [Mouvement sur route](assets/robot/Robot-road.mp4)
+- [Mouvement sur rails](assets/robot/Robot-train.mp4)
 
 ## :computer: Technologies utilisées
+
+<a href="https://docs.unity.com/" target="_blank" rel="noreferrer">
+    <img
+      src="assets/tech-stack/Unity.png"
+      alt="unity"
+      width="50"
+      height="50"
+    />
+</a>
+<a href="https://learn.microsoft.com/fr-fr/dotnet/csharp/" target="_blank" rel="noreferrer">
+    <img
+      src="assets/tech-stack/Csharp.png"
+      alt="csharp"
+      width="50"
+      height="50"
+    />
+</a>
+<a href="https://www.blender.org/" target="_blank" rel="noreferrer">
+    <img
+      src="assets/tech-stack/Blender.png"
+      alt="csharp"
+      width="50"
+      height="50"
+    />
+</a>
 
 ## :trollface: Contributors
 - [@Dinholu](https://github.com/Dinholu/), alias **Alizée Hett**
