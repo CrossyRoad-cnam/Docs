@@ -243,7 +243,7 @@ Sur ce menu, vous pourrez:
 - Modifiez le volume du jeu
 - Cliquez sur `BACK` pour revenir au menu précédent.
 
-## :dependabot: Le Robot
+## 🤖 Le Robot
 Le robot, le bot, l'IA, cette partie du projet fut la plus fastidieuse, et celui qui demandait le plus d'attention, de logique, d'algorithme.
 
 En effet, dans le développement du jeu, depuis le début, nous avons choisi de faire recours aux `raycasts` pour la détection des collisions, mais non uniquement avec les colliders.
