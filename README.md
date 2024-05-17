@@ -203,6 +203,7 @@ Et comme pour le menu Pause précédemment :
 
 ### Highscore
 Maintenant vient le leaderboard! N'hésitez pas à battre votre score et devenir le top 1 dans le leaderboard comme dans les vieux jeux d'arcade :video_game:.
+Mentionné précédemment, le leaderboard est accessible que depuis le menu principal du jeu.
 
 <div style="text-align:center;">
 
@@ -232,7 +233,24 @@ Si vous êtes assez bon sur le jeu, vous aurez encore plus de choix sur le jeu, 
 
 ### Options
 
+<div style="text-align:center;">
+
+![Options](assets/Options.png)
+</div>
+
+Sur ce menu, vous pourrez:
+- Modifier la difficulté du jeu en cliquant sur les flèches présents
+- Modifiez le volume du jeu
+- Cliquez sur `BACK` pour revenir au menu précédent.
+
 ## :dependabot: Le Robot
+Le robot, le bot, l'IA, cette partie du projet fut la plus fastidieuse, et celui qui demandait le plus d'attention, de logique, d'algorithme.
+
+En effet, dans le développement du jeu, depuis le début, nous avons choisi de faire recours aux `raycasts` pour la détection des collisions, mais non uniquement avec les colliders.
+
+En utilisant donc cette même logique de détection, nous avons développé le robot autour des `raycasts` pour la détection de son envrionnement que ce soit pour les Obstacles, les véhicules, les trains, et l'eau.
+
+
 ## :computer: Technologies utilisées
 
 ## :trollface: Contributors
